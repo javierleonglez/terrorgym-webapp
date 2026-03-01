@@ -945,8 +945,8 @@
               "descendants": {
                 "UNduu": {
                   "content": "Editar Datos",
-                  "x": 116.99999999999994,
-                  "y": 12.693095343835374
+                  "x": 117,
+                  "y": 12.693095343835399
                 }
               }
             },
@@ -961,8 +961,8 @@
               "descendants": {
                 "41e71": {
                   "content": "Cerrar Sesion",
-                  "x": 112.49999999999994,
-                  "y": 12.693095343835374
+                  "x": 112.5,
+                  "y": 12.693095343835399
                 }
               }
             }
@@ -973,7 +973,7 @@
           "type": "ref",
           "ref": "wXe50",
           "x": 0,
-          "y": 766
+          "y": 766.0000000000001
         }
       ]
     },
@@ -8486,7 +8486,7 @@
     {
       "type": "frame",
       "id": "Qfc5d",
-      "x": 3276,
+      "x": 2978,
       "y": -510,
       "name": "Monitor - Perfil",
       "clip": true,
@@ -8545,8 +8545,8 @@
           "id": "Nf8aY",
           "name": "content",
           "layout": "vertical",
-          "gap": 16,
-          "padding": 20,
+          "gap": 12,
+          "padding": 16,
           "width": "fill_container",
           "height": "fill_container",
           "children": [
@@ -8558,7 +8558,7 @@
               "layout": "vertical",
               "gap": 12,
               "padding": [
-                16,
+                8,
                 0
               ],
               "justifyContent": "center",
@@ -8574,8 +8574,8 @@
                     "url": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzA1OTU1NDB8&ixlib=rb-4.1.0&q=80&w=400",
                     "mode": "fill"
                   },
-                  "width": 100,
-                  "height": 100
+                  "width": 80,
+                  "height": 80
                 },
                 {
                   "type": "text",
@@ -8854,7 +8854,7 @@
               "id": "HtvQv",
               "name": "editBtn",
               "width": "fill_container",
-              "height": 50.69980640849762,
+              "height": 55.53125582206897,
               "fill": "$--background",
               "cornerRadius": "$--radius-pill",
               "stroke": {
@@ -8863,7 +8863,7 @@
                 "fill": "$--border"
               },
               "padding": [
-                12,
+                0,
                 24
               ],
               "justifyContent": "center",
@@ -8886,11 +8886,11 @@
               "id": "qnQMF",
               "name": "logoutBtn",
               "width": "fill_container",
-              "height": 51.575075848485646,
+              "height": 52.665594375917365,
               "fill": "$--destructive",
               "cornerRadius": "$--radius-pill",
               "padding": [
-                12,
+                0,
                 24
               ],
               "justifyContent": "center",
