@@ -644,13 +644,14 @@
           ]
         },
         {
-          "type": "group",
-          "id": "MtKPx",
+          "type": "frame",
+          "id": "V3I0W",
+          "name": "content",
+          "width": "fill_container",
+          "height": 663,
           "layout": "vertical",
           "gap": 16,
           "padding": 20,
-          "alignItems": "center",
-          "width": "fill_container",
           "children": [
             {
               "type": "frame",
@@ -935,36 +936,57 @@
               ]
             },
             {
-              "id": "tvpf1",
-              "type": "ref",
-              "ref": "rgkwm",
-              "width": "fill_container",
+              "type": "frame",
+              "id": "OxhUn",
               "name": "editBtn",
-              "height": "fit_content",
-              "opacity": 0.7099999999999997,
-              "descendants": {
-                "UNduu": {
+              "width": "fill_container",
+              "height": 52,
+              "fill": "$--background",
+              "cornerRadius": "$--radius-pill",
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "$--border"
+              },
+              "layout": "vertical",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "DXogg",
+                  "name": "editLabel",
+                  "fill": "$--foreground",
                   "content": "Editar Datos",
-                  "x": 116.99999999999997,
-                  "y": 12.693095343835399
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "500"
                 }
-              }
+              ]
             },
             {
-              "id": "jeUjG",
-              "type": "ref",
-              "ref": "pu1du",
-              "width": "fill_container",
+              "type": "frame",
+              "id": "FOpa6",
               "name": "logoutBtn",
-              "height": "fit_content",
-              "opacity": 1,
-              "descendants": {
-                "41e71": {
-                  "content": "Cerrar Sesion",
-                  "x": 112.49999999999997,
-                  "y": 12.693095343835399
+              "width": "fill_container",
+              "height": 52,
+              "fill": "$--destructive",
+              "cornerRadius": "$--radius-pill",
+              "layout": "vertical",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "udap8",
+                  "name": "logoutLabel",
+                  "fill": "$--foreground",
+                  "content": "Cerrar Sesión",
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "500"
                 }
-              }
+              ]
             }
           ]
         },
@@ -973,7 +995,7 @@
           "type": "ref",
           "ref": "wXe50",
           "x": 0,
-          "y": 766.0000000000001
+          "y": 739
         }
       ]
     },
@@ -8486,8 +8508,8 @@
     {
       "type": "frame",
       "id": "Qfc5d",
-      "x": 2978,
-      "y": -510,
+      "x": 3269,
+      "y": 548,
       "name": "Monitor - Perfil",
       "clip": true,
       "width": 375,
