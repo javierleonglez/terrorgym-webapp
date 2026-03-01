@@ -940,7 +940,7 @@
               "ref": "rgkwm",
               "width": "fill_container",
               "name": "editBtn",
-              "height": 55.316377743757045,
+              "height": 58.92622881114879,
               "descendants": {
                 "UNduu": {
                   "content": "Editar Datos"
@@ -953,7 +953,7 @@
               "ref": "pu1du",
               "width": "fill_container",
               "name": "logoutBtn",
-              "height": 54.4593201097163,
+              "height": 58.01324107934584,
               "descendants": {
                 "41e71": {
                   "content": "Cerrar Sesion"
@@ -967,14 +967,14 @@
           "type": "ref",
           "ref": "wXe50",
           "x": 0,
-          "y": 786.8183538993936
+          "y": 794.3270911356364
         }
       ]
     },
     {
       "type": "frame",
       "id": "mvk5W",
-      "x": 773,
+      "x": 784,
       "y": -510,
       "name": "Alumno - Home",
       "width": 375,
