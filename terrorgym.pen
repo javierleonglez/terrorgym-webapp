@@ -945,7 +945,7 @@
               "descendants": {
                 "UNduu": {
                   "content": "Editar Datos",
-                  "x": 117,
+                  "x": 116.99999999999997,
                   "y": 12.693095343835399
                 }
               }
@@ -961,7 +961,7 @@
               "descendants": {
                 "41e71": {
                   "content": "Cerrar Sesion",
-                  "x": 112.5,
+                  "x": 112.49999999999997,
                   "y": 12.693095343835399
                 }
               }
@@ -8494,6 +8494,7 @@
       "height": 812,
       "fill": "$--background",
       "layout": "vertical",
+      "alignItems": "center",
       "children": [
         {
           "type": "frame",
@@ -8541,14 +8542,14 @@
           ]
         },
         {
-          "type": "group",
-          "id": "Nf8aY",
+          "type": "frame",
+          "id": "Qwqgx",
           "name": "content",
+          "width": 375,
+          "height": 663,
           "layout": "vertical",
           "gap": 12,
           "padding": 16,
-          "width": "fill_container",
-          "height": "fill_container",
           "children": [
             {
               "type": "frame",
@@ -8854,7 +8855,7 @@
               "id": "HtvQv",
               "name": "editBtn",
               "width": "fill_container",
-              "height": 55.53125582206897,
+              "height": 52,
               "fill": "$--background",
               "cornerRadius": "$--radius-pill",
               "stroke": {
@@ -8862,10 +8863,6 @@
                 "thickness": 1,
                 "fill": "$--border"
               },
-              "padding": [
-                0,
-                24
-              ],
               "justifyContent": "center",
               "alignItems": "center",
               "children": [
@@ -8886,13 +8883,9 @@
               "id": "qnQMF",
               "name": "logoutBtn",
               "width": "fill_container",
-              "height": 52.665594375917365,
+              "height": 52,
               "fill": "$--destructive",
               "cornerRadius": "$--radius-pill",
-              "padding": [
-                0,
-                24
-              ],
               "justifyContent": "center",
               "alignItems": "center",
               "children": [
@@ -8914,7 +8907,9 @@
           "id": "nxIpo",
           "type": "ref",
           "ref": "wXe50",
-          "name": "tabbar"
+          "name": "tabbar",
+          "x": 0,
+          "y": 723
         }
       ]
     }
