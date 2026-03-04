@@ -4037,40 +4037,19 @@
                           ]
                         }
                       ]
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "DVfg6",
-                  "name": "repRow",
-                  "width": "fill_container",
-                  "height": 64,
-                  "fill": "$--secondary",
-                  "cornerRadius": 10,
-                  "stroke": {
-                    "align": "inside",
-                    "thickness": 1,
-                    "fill": "$--border"
-                  },
-                  "padding": [
-                    0,
-                    16
-                  ],
-                  "justifyContent": "space_between",
-                  "alignItems": "center",
-                  "children": [
+                    },
                     {
                       "type": "frame",
-                      "id": "XJ6p5",
-                      "name": "repLeft",
+                      "id": "GWbfT",
+                      "name": "repSemanal",
+                      "width": "fill_container",
                       "layout": "vertical",
-                      "gap": 3,
+                      "gap": 6,
                       "children": [
                         {
                           "type": "text",
-                          "id": "RdzTy",
-                          "name": "repTitle",
+                          "id": "kugJh",
+                          "name": "repLabel",
                           "fill": "$--muted-foreground",
                           "content": "REPETICIÓN SEMANAL",
                           "fontFamily": "JetBrains Mono",
@@ -4078,41 +4057,63 @@
                           "fontWeight": "600"
                         },
                         {
-                          "type": "text",
-                          "id": "AYWEu",
-                          "name": "repDesc",
-                          "fill": "$--foreground",
-                          "content": "Repetir cada semana en el mismo horario",
-                          "fontFamily": "Geist",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "9L0IN",
-                      "name": "toggleTrack",
-                      "width": 48,
-                      "height": 28,
-                      "fill": "$--primary",
-                      "cornerRadius": 14,
-                      "padding": [
-                        3,
-                        3,
-                        3,
-                        24
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
                           "type": "frame",
-                          "id": "5XNxF",
-                          "name": "toggleThumb",
-                          "width": 22,
-                          "height": 22,
-                          "fill": "#000000",
-                          "cornerRadius": 11
+                          "id": "6bySS",
+                          "name": "repControl",
+                          "width": "fill_container",
+                          "height": 44,
+                          "fill": "$--secondary",
+                          "cornerRadius": 8,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "$--border"
+                          },
+                          "padding": [
+                            0,
+                            16
+                          ],
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "CCpqn",
+                              "name": "repCtrlText",
+                              "fill": "$--foreground",
+                              "content": "Cada semana",
+                              "fontFamily": "Geist",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "8Vrjh",
+                              "name": "toggleTrack",
+                              "width": 48,
+                              "height": 28,
+                              "fill": "$--primary",
+                              "cornerRadius": 14,
+                              "padding": [
+                                3,
+                                3,
+                                3,
+                                24
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "sMz2I",
+                                  "name": "toggleThumb",
+                                  "width": 22,
+                                  "height": 22,
+                                  "fill": "#000000",
+                                  "cornerRadius": 11
+                                }
+                              ]
+                            }
+                          ]
                         }
                       ]
                     }
