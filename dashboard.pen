@@ -87,7 +87,7 @@
                   "id": "QDYUJ",
                   "name": "navActiveLabel",
                   "fill": "$--foreground",
-                  "content": "Inicio",
+                  "content": "Alumnos",
                   "fontFamily": "Geist",
                   "fontSize": 14,
                   "fontWeight": "600"
@@ -393,7 +393,7 @@
                           "id": "lrwce",
                           "name": "kpi2num",
                           "fill": "#B6FFCE",
-                          "content": "142",
+                          "content": "ALUMNOS",
                           "fontFamily": "JetBrains Mono",
                           "fontSize": 32,
                           "fontWeight": "800"
@@ -1062,7 +1062,7 @@
                   "id": "r9M6D",
                   "name": "sb2n1L",
                   "fill": "$--foreground",
-                  "content": "Inicio",
+                  "content": "Alumnos",
                   "fontFamily": "Geist",
                   "fontSize": 14,
                   "fontWeight": "600"
@@ -1916,7 +1916,7 @@
       "id": "1c27i",
       "x": 0,
       "y": 1086,
-      "name": "Admin - Directorio Usuarios",
+      "name": "Admin - Directorio Alumnos",
       "clip": true,
       "width": 1024,
       "height": 768,
@@ -1995,7 +1995,7 @@
                   "id": "4Rboa",
                   "name": "sb3n1L",
                   "fill": "$--muted-foreground",
-                  "content": "Inicio",
+                  "content": "Alumnos",
                   "fontFamily": "Geist",
                   "fontSize": 14,
                   "fontWeight": "normal"
@@ -2096,7 +2096,7 @@
                   "id": "VbVKB",
                   "name": "sb3n5L",
                   "fill": "$--muted-foreground",
-                  "content": "Configuración",
+                  "content": "Alumnos",
                   "fontFamily": "Geist",
                   "fontSize": 14,
                   "fontWeight": "normal"
@@ -2182,7 +2182,7 @@
                           "id": "CPovU",
                           "name": "top3logoutL",
                           "fill": "$--foreground",
-                          "content": "Salir",
+                          "content": "BUSCAR ALUMNO",
                           "fontFamily": "Geist",
                           "fontSize": 14,
                           "fontWeight": "500"
@@ -3408,7 +3408,7 @@
                   "id": "itfTB",
                   "name": "sb5nav1text",
                   "fill": "$--muted-foreground",
-                  "content": "Inicio",
+                  "content": "Alumnos",
                   "fontFamily": "Geist",
                   "fontSize": 14,
                   "fontWeight": "normal"
@@ -4393,7 +4393,7 @@
                   "id": "IIyFN",
                   "name": "sb6nav1text",
                   "fill": "$--muted-foreground",
-                  "content": "Inicio",
+                  "content": "Alumnos",
                   "fontFamily": "Geist",
                   "fontSize": 14,
                   "fontWeight": "normal"
