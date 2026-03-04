@@ -4124,93 +4124,31 @@
                   "id": "8egYs",
                   "name": "monitorRow",
                   "width": "fill_container",
-                  "layout": "vertical",
-                  "gap": 6,
+                  "gap": 16,
                   "children": [
                     {
-                      "type": "text",
-                      "id": "YdrXj",
-                      "name": "monLabel",
-                      "fill": "$--muted-foreground",
-                      "content": "MONITOR ASIGNADO",
-                      "fontFamily": "JetBrains Mono",
-                      "fontSize": 11,
-                      "fontWeight": "600"
-                    },
-                    {
                       "type": "frame",
-                      "id": "68Nxg",
-                      "name": "monInput",
+                      "id": "XpHMm",
+                      "name": "monCol",
                       "width": "fill_container",
-                      "height": 44,
-                      "fill": "$--secondary",
-                      "cornerRadius": 8,
-                      "stroke": {
-                        "align": "inside",
-                        "thickness": 1,
-                        "fill": "$--border"
-                      },
-                      "padding": [
-                        0,
-                        16
-                      ],
-                      "justifyContent": "space_between",
-                      "alignItems": "center",
+                      "layout": "vertical",
+                      "gap": 6,
                       "children": [
                         {
                           "type": "text",
-                          "id": "ozjwa",
-                          "name": "monVal",
-                          "fill": "$--foreground",
-                          "content": "Carlos H.",
-                          "fontFamily": "Geist",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
+                          "id": "YdrXj",
+                          "name": "monLabel",
+                          "fill": "$--muted-foreground",
+                          "content": "MONITOR ASIGNADO",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 11,
+                          "fontWeight": "600"
                         },
                         {
-                          "type": "text",
-                          "id": "PAfl5",
-                          "name": "monChevron",
-                          "fill": "$--muted-foreground",
-                          "content": "▾",
-                          "fontFamily": "Geist",
-                          "fontSize": 16,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "OIOc8",
-                  "name": "aforoRow",
-                  "width": "fill_container",
-                  "layout": "vertical",
-                  "gap": 6,
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "LWwgv",
-                      "name": "aforoLabel",
-                      "fill": "$--muted-foreground",
-                      "content": "AFORO MÁXIMO",
-                      "fontFamily": "JetBrains Mono",
-                      "fontSize": 11,
-                      "fontWeight": "600"
-                    },
-                    {
-                      "type": "frame",
-                      "id": "LlCxX",
-                      "name": "aforoStepper",
-                      "gap": 16,
-                      "alignItems": "center",
-                      "children": [
-                        {
                           "type": "frame",
-                          "id": "ZCDQ1",
-                          "name": "aforoMinus",
-                          "width": 44,
+                          "id": "68Nxg",
+                          "name": "monInput",
+                          "width": "fill_container",
                           "height": 44,
                           "fill": "$--secondary",
                           "cornerRadius": 8,
@@ -4219,56 +4157,127 @@
                             "thickness": 1,
                             "fill": "$--border"
                           },
-                          "justifyContent": "center",
+                          "padding": [
+                            0,
+                            16
+                          ],
+                          "justifyContent": "space_between",
                           "alignItems": "center",
                           "children": [
                             {
                               "type": "text",
-                              "id": "ijNld",
-                              "name": "aforoMinusText",
+                              "id": "ozjwa",
+                              "name": "monVal",
                               "fill": "$--foreground",
-                              "content": "−",
-                              "fontFamily": "JetBrains Mono",
-                              "fontSize": 20,
-                              "fontWeight": "700"
+                              "content": "Carlos H.",
+                              "fontFamily": "Geist",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "PAfl5",
+                              "name": "monChevron",
+                              "fill": "$--muted-foreground",
+                              "content": "▾",
+                              "fontFamily": "Geist",
+                              "fontSize": 16,
+                              "fontWeight": "normal"
                             }
                           ]
-                        },
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "OIOc8",
+                      "name": "aforoRow",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 6,
+                      "children": [
                         {
                           "type": "text",
-                          "id": "zSocO",
-                          "name": "aforoNum",
-                          "fill": "$--foreground",
-                          "content": "15",
+                          "id": "LWwgv",
+                          "name": "aforoLabel",
+                          "fill": "$--muted-foreground",
+                          "content": "AFORO MÁXIMO",
                           "fontFamily": "JetBrains Mono",
-                          "fontSize": 32,
-                          "fontWeight": "800"
+                          "fontSize": 11,
+                          "fontWeight": "600"
                         },
                         {
                           "type": "frame",
-                          "id": "8yYGM",
-                          "name": "aforoPlus",
-                          "width": 44,
-                          "height": 44,
-                          "fill": "$--secondary",
-                          "cornerRadius": 8,
-                          "stroke": {
-                            "align": "inside",
-                            "thickness": 1,
-                            "fill": "$--border"
-                          },
-                          "justifyContent": "center",
+                          "id": "LlCxX",
+                          "name": "aforoStepper",
+                          "gap": 16,
                           "alignItems": "center",
                           "children": [
                             {
+                              "type": "frame",
+                              "id": "ZCDQ1",
+                              "name": "aforoMinus",
+                              "width": 44,
+                              "height": 44,
+                              "fill": "$--secondary",
+                              "cornerRadius": 8,
+                              "stroke": {
+                                "align": "inside",
+                                "thickness": 1,
+                                "fill": "$--border"
+                              },
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "ijNld",
+                                  "name": "aforoMinusText",
+                                  "fill": "$--foreground",
+                                  "content": "−",
+                                  "fontFamily": "JetBrains Mono",
+                                  "fontSize": 20,
+                                  "fontWeight": "700"
+                                }
+                              ]
+                            },
+                            {
                               "type": "text",
-                              "id": "88Im3",
-                              "name": "aforoPlusText",
-                              "fill": "$--primary",
-                              "content": "+",
+                              "id": "zSocO",
+                              "name": "aforoNum",
+                              "fill": "$--foreground",
+                              "content": "15",
                               "fontFamily": "JetBrains Mono",
-                              "fontSize": 20,
-                              "fontWeight": "700"
+                              "fontSize": 32,
+                              "fontWeight": "800"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "8yYGM",
+                              "name": "aforoPlus",
+                              "width": 44,
+                              "height": 44,
+                              "fill": "$--secondary",
+                              "cornerRadius": 8,
+                              "stroke": {
+                                "align": "inside",
+                                "thickness": 1,
+                                "fill": "$--border"
+                              },
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "88Im3",
+                                  "name": "aforoPlusText",
+                                  "fill": "$--primary",
+                                  "content": "+",
+                                  "fontFamily": "JetBrains Mono",
+                                  "fontSize": 20,
+                                  "fontWeight": "700"
+                                }
+                              ]
                             }
                           ]
                         }
