@@ -112,7 +112,7 @@
                   "id": "Byz8q",
                   "name": "nav2L",
                   "fill": "$--muted-foreground",
-                  "content": "Usuarios",
+                  "content": "Sesiones",
                   "fontFamily": "Geist",
                   "fontSize": 14,
                   "fontWeight": "normal"
@@ -1087,7 +1087,7 @@
                   "id": "BEHla",
                   "name": "sb2n2L",
                   "fill": "$--muted-foreground",
-                  "content": "Usuarios",
+                  "content": "Sesiones",
                   "fontFamily": "Geist",
                   "fontSize": 14,
                   "fontWeight": "normal"
@@ -2021,7 +2021,7 @@
                   "id": "7XmBm",
                   "name": "sb3n2L",
                   "fill": "$--foreground",
-                  "content": "Usuarios",
+                  "content": "Sesiones",
                   "fontFamily": "Geist",
                   "fontSize": 14,
                   "fontWeight": "600"
@@ -2408,7 +2408,7 @@
                               "id": "OEUcE",
                               "name": "tr1nameT",
                               "fill": "$--foreground",
-                              "content": "Javier León",
+                              "content": "3 Sesiones/Semana",
                               "fontFamily": "Geist",
                               "fontSize": 14,
                               "fontWeight": "600"
@@ -2686,7 +2686,7 @@
                               "id": "itEIJ",
                               "name": "tr3nameT",
                               "fill": "$--foreground",
-                              "content": "Carlos Ruiz",
+                              "content": "2 Sesiones/Semana",
                               "fontFamily": "Geist",
                               "fontSize": 14,
                               "fontWeight": "600"
@@ -3017,7 +3017,7 @@
                       "id": "OeHCQ",
                       "name": "bonoTitle",
                       "fill": "$--muted-foreground",
-                      "content": "SELECCIONAR BONO",
+                      "content": "2 Sesiones / Semana",
                       "fontFamily": "JetBrains Mono",
                       "fontSize": 11,
                       "fontWeight": "600"
@@ -3077,7 +3077,7 @@
                               "id": "Wa3Pp",
                               "name": "bOpt1price",
                               "fill": "$--muted-foreground",
-                              "content": "20 €",
+                              "content": "3 Sesiones / Semana",
                               "fontFamily": "JetBrains Mono",
                               "fontSize": 14,
                               "fontWeight": "700"
@@ -3633,7 +3633,7 @@
                   "id": "khsVk",
                   "name": "sb5nav2text",
                   "fill": "$--muted-foreground",
-                  "content": "Usuarios",
+                  "content": "Sesiones",
                   "fontFamily": "Geist",
                   "fontSize": 14,
                   "fontWeight": "normal"
@@ -4318,9 +4318,9 @@
     {
       "type": "frame",
       "id": "yrY1E",
-      "x": 5320,
-      "y": 0,
-      "name": "Admin - Clases Semana",
+      "x": 0,
+      "y": 2109,
+      "name": "Admin - Sesiones Semana",
       "clip": true,
       "width": 1024,
       "height": 768,
@@ -4428,7 +4428,7 @@
                   "id": "RBu1o",
                   "name": "sb6nav2text",
                   "fill": "$--muted-foreground",
-                  "content": "Usuarios",
+                  "content": "Sesiones",
                   "fontFamily": "Geist",
                   "fontSize": 14,
                   "fontWeight": "normal"
@@ -4611,7 +4611,7 @@
                           "id": "ZVise",
                           "name": "nextText",
                           "fill": "$--muted-foreground",
-                          "content": "→",
+                          "content": "+ NUEVA SESIÓN",
                           "fontFamily": "JetBrains Mono",
                           "fontSize": 16,
                           "fontWeight": "700"
