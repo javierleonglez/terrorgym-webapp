@@ -87,7 +87,7 @@
                   "id": "QDYUJ",
                   "name": "navActiveLabel",
                   "fill": "$--foreground",
-                  "content": "Alumnos",
+                  "content": "Inicio",
                   "fontFamily": "Geist",
                   "fontSize": 14,
                   "fontWeight": "600"
@@ -112,7 +112,7 @@
                   "id": "Byz8q",
                   "name": "nav2L",
                   "fill": "$--muted-foreground",
-                  "content": "Usuarios",
+                  "content": "Alumnos",
                   "fontFamily": "Geist",
                   "fontSize": 14,
                   "fontWeight": "normal"
@@ -1062,7 +1062,7 @@
                   "id": "r9M6D",
                   "name": "sb2n1L",
                   "fill": "$--foreground",
-                  "content": "Alumnos",
+                  "content": "Inicio",
                   "fontFamily": "Geist",
                   "fontSize": 14,
                   "fontWeight": "600"
@@ -1995,7 +1995,7 @@
                   "id": "4Rboa",
                   "name": "sb3n1L",
                   "fill": "$--muted-foreground",
-                  "content": "Alumnos",
+                  "content": "Inicio",
                   "fontFamily": "Geist",
                   "fontSize": 14,
                   "fontWeight": "normal"
@@ -2021,7 +2021,7 @@
                   "id": "7XmBm",
                   "name": "sb3n2L",
                   "fill": "$--foreground",
-                  "content": "Usuarios",
+                  "content": "Alumnos",
                   "fontFamily": "Geist",
                   "fontSize": 14,
                   "fontWeight": "600"
@@ -2096,7 +2096,7 @@
                   "id": "VbVKB",
                   "name": "sb3n5L",
                   "fill": "$--muted-foreground",
-                  "content": "Alumnos",
+                  "content": "Configuración",
                   "fontFamily": "Geist",
                   "fontSize": 14,
                   "fontWeight": "normal"
@@ -3408,7 +3408,7 @@
                   "id": "itfTB",
                   "name": "sb5nav1text",
                   "fill": "$--muted-foreground",
-                  "content": "Alumnos",
+                  "content": "Inicio",
                   "fontFamily": "Geist",
                   "fontSize": 14,
                   "fontWeight": "normal"
@@ -4393,7 +4393,7 @@
                   "id": "IIyFN",
                   "name": "sb6nav1text",
                   "fill": "$--muted-foreground",
-                  "content": "Alumnos",
+                  "content": "Inicio",
                   "fontFamily": "Geist",
                   "fontSize": 14,
                   "fontWeight": "normal"
