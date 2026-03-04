@@ -3144,178 +3144,6 @@
                           ]
                         }
                       ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "oyBCn",
-                      "name": "bonoOpt3",
-                      "width": "fill_container",
-                      "fill": "$--card",
-                      "cornerRadius": 8,
-                      "stroke": {
-                        "align": "inside",
-                        "thickness": 1,
-                        "fill": "$--border"
-                      },
-                      "gap": 12,
-                      "padding": [
-                        12,
-                        16
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "ellipse",
-                          "id": "Lc6oK",
-                          "name": "radio",
-                          "fill": "#2E2E2E",
-                          "width": 18,
-                          "height": 18,
-                          "stroke": {
-                            "align": "inside",
-                            "thickness": 2,
-                            "fill": "$--border"
-                          }
-                        },
-                        {
-                          "type": "frame",
-                          "id": "QgkAF",
-                          "name": "bOpt3labels",
-                          "width": "fill_container",
-                          "justifyContent": "space_between",
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "7XTJU",
-                              "name": "bOpt3text",
-                              "fill": "$--foreground",
-                              "content": "Ilimitado",
-                              "fontFamily": "Geist",
-                              "fontSize": 14,
-                              "fontWeight": "normal"
-                            },
-                            {
-                              "type": "text",
-                              "id": "AbOUu",
-                              "name": "bOpt3price",
-                              "fill": "$--muted-foreground",
-                              "content": "50 €",
-                              "fontFamily": "JetBrains Mono",
-                              "fontSize": 14,
-                              "fontWeight": "700"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "FjsaA",
-                  "name": "pagoSection",
-                  "width": "fill_container",
-                  "layout": "vertical",
-                  "gap": 10,
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "UMzDI",
-                      "name": "pagoTitle",
-                      "fill": "$--muted-foreground",
-                      "content": "MÉTODO DE PAGO",
-                      "fontFamily": "JetBrains Mono",
-                      "fontSize": 11,
-                      "fontWeight": "600"
-                    },
-                    {
-                      "type": "frame",
-                      "id": "Lynb7",
-                      "name": "pagoRow",
-                      "width": "fill_container",
-                      "gap": 8,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "frame",
-                          "id": "Q9TIp",
-                          "name": "pagoEfectivo",
-                          "height": 40,
-                          "fill": "$--primary",
-                          "cornerRadius": 8,
-                          "padding": [
-                            0,
-                            20
-                          ],
-                          "justifyContent": "center",
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "PVzMY",
-                              "name": "pagoEfectivoText",
-                              "fill": "#000000",
-                              "content": "Efectivo",
-                              "fontFamily": "JetBrains Mono",
-                              "fontSize": 14,
-                              "fontWeight": "700"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "dCnlR",
-                          "name": "pagoTransf",
-                          "height": 40,
-                          "fill": "$--secondary",
-                          "cornerRadius": 8,
-                          "padding": [
-                            0,
-                            20
-                          ],
-                          "justifyContent": "center",
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "6kF9i",
-                              "name": "pagoTransfText",
-                              "fill": "$--foreground",
-                              "content": "Transferencia",
-                              "fontFamily": "Geist",
-                              "fontSize": 14,
-                              "fontWeight": "normal"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "0Zezy",
-                          "name": "pagoBizum",
-                          "height": 40,
-                          "fill": "$--secondary",
-                          "cornerRadius": 8,
-                          "padding": [
-                            0,
-                            20
-                          ],
-                          "justifyContent": "center",
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "vtq4s",
-                              "name": "pagoBizumText",
-                              "fill": "$--foreground",
-                              "content": "Bizum",
-                              "fontFamily": "Geist",
-                              "fontSize": 14,
-                              "fontWeight": "normal"
-                            }
-                          ]
-                        }
-                      ]
                     }
                   ]
                 },
@@ -3339,117 +3167,91 @@
                     },
                     {
                       "type": "frame",
-                      "id": "GyrRe",
-                      "name": "vigRow",
+                      "id": "hgVFB",
+                      "name": "vigMonthPicker",
                       "width": "fill_container",
-                      "gap": 12,
+                      "height": 44,
+                      "fill": "$--secondary",
+                      "cornerRadius": 8,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$--border"
+                      },
+                      "padding": [
+                        0,
+                        16
+                      ],
+                      "justifyContent": "space_between",
                       "alignItems": "center",
                       "children": [
                         {
                           "type": "frame",
-                          "id": "uHmPL",
-                          "name": "vigDesde",
-                          "width": "fill_container",
-                          "height": 44,
-                          "layout": "vertical",
-                          "gap": 4,
+                          "id": "LtvDZ",
+                          "name": "prevMonth",
+                          "width": 32,
+                          "height": 32,
+                          "fill": "$--card",
+                          "cornerRadius": 6,
+                          "justifyContent": "center",
+                          "alignItems": "center",
                           "children": [
                             {
                               "type": "text",
-                              "id": "jqyZF",
-                              "name": "vigDesdeLabel",
-                              "fill": "$--muted-foreground",
-                              "content": "Desde",
-                              "fontFamily": "Geist",
-                              "fontSize": 11,
-                              "fontWeight": "normal"
-                            },
-                            {
-                              "type": "frame",
-                              "id": "IC4WK",
-                              "name": "vigDesdeInput",
-                              "width": "fill_container",
-                              "height": 36,
-                              "fill": "$--secondary",
-                              "cornerRadius": 8,
-                              "stroke": {
-                                "align": "inside",
-                                "thickness": 1,
-                                "fill": "$--border"
-                              },
-                              "padding": [
-                                0,
-                                12
-                              ],
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "id": "yDnz8",
-                                  "name": "vigDesdeVal",
-                                  "fill": "$--foreground",
-                                  "content": "12/10/2023",
-                                  "fontFamily": "Geist",
-                                  "fontSize": 14,
-                                  "fontWeight": "normal"
-                                }
-                              ]
+                              "id": "VTg2k",
+                              "name": "prevArrow",
+                              "fill": "$--foreground",
+                              "content": "←",
+                              "fontFamily": "JetBrains Mono",
+                              "fontSize": 16,
+                              "fontWeight": "700"
                             }
                           ]
                         },
                         {
+                          "type": "text",
+                          "id": "RW97r",
+                          "name": "monthLabel",
+                          "fill": "$--foreground",
+                          "content": "Octubre 2023",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 15,
+                          "fontWeight": "700"
+                        },
+                        {
                           "type": "frame",
-                          "id": "Kmeg0",
-                          "name": "vigHasta",
-                          "width": "fill_container",
-                          "height": 44,
-                          "layout": "vertical",
-                          "gap": 4,
+                          "id": "GHQEh",
+                          "name": "nextMonth",
+                          "width": 32,
+                          "height": 32,
+                          "fill": "$--card",
+                          "cornerRadius": 6,
+                          "justifyContent": "center",
+                          "alignItems": "center",
                           "children": [
                             {
                               "type": "text",
-                              "id": "TZwz9",
-                              "name": "vigHastaLabel",
-                              "fill": "$--muted-foreground",
-                              "content": "Hasta",
-                              "fontFamily": "Geist",
-                              "fontSize": 11,
-                              "fontWeight": "normal"
-                            },
-                            {
-                              "type": "frame",
-                              "id": "RR5xG",
-                              "name": "vigHastaInput",
-                              "width": "fill_container",
-                              "height": 36,
-                              "fill": "$--secondary",
-                              "cornerRadius": 8,
-                              "stroke": {
-                                "align": "inside",
-                                "thickness": 1,
-                                "fill": "$--border"
-                              },
-                              "padding": [
-                                0,
-                                12
-                              ],
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "id": "6ix6t",
-                                  "name": "vigHastaVal",
-                                  "fill": "$--foreground",
-                                  "content": "11/11/2023",
-                                  "fontFamily": "Geist",
-                                  "fontSize": 14,
-                                  "fontWeight": "normal"
-                                }
-                              ]
+                              "id": "4I5B7",
+                              "name": "nextArrow",
+                              "fill": "$--foreground",
+                              "content": "→",
+                              "fontFamily": "JetBrains Mono",
+                              "fontSize": 16,
+                              "fontWeight": "700"
                             }
                           ]
                         }
                       ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "Lovyt",
+                      "name": "vigNote",
+                      "fill": "$--muted-foreground",
+                      "content": "El bono cubre el mes completo seleccionado",
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
