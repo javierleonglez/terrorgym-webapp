@@ -3765,7 +3765,7 @@
                   "id": "B14VF",
                   "name": "title5",
                   "fill": "$--foreground",
-                  "content": "NUEVA SESIÓN",
+                  "content": "NUEVA CLASE",
                   "fontFamily": "JetBrains Mono",
                   "fontSize": 16,
                   "fontWeight": "800"
@@ -4042,6 +4042,84 @@
                 },
                 {
                   "type": "frame",
+                  "id": "DVfg6",
+                  "name": "repRow",
+                  "width": "fill_container",
+                  "height": 64,
+                  "fill": "$--secondary",
+                  "cornerRadius": 10,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$--border"
+                  },
+                  "padding": [
+                    0,
+                    16
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "XJ6p5",
+                      "name": "repLeft",
+                      "layout": "vertical",
+                      "gap": 3,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "RdzTy",
+                          "name": "repTitle",
+                          "fill": "$--muted-foreground",
+                          "content": "REPETICIÓN SEMANAL",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 11,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "AYWEu",
+                          "name": "repDesc",
+                          "fill": "$--foreground",
+                          "content": "Repetir cada semana en el mismo horario",
+                          "fontFamily": "Geist",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "9L0IN",
+                      "name": "toggleTrack",
+                      "width": 48,
+                      "height": 28,
+                      "fill": "$--primary",
+                      "cornerRadius": 14,
+                      "padding": [
+                        3,
+                        3,
+                        3,
+                        24
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "5XNxF",
+                          "name": "toggleThumb",
+                          "width": 22,
+                          "height": 22,
+                          "fill": "#000000",
+                          "cornerRadius": 11
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
                   "id": "8egYs",
                   "name": "monitorRow",
                   "width": "fill_container",
@@ -4272,7 +4350,7 @@
                           "id": "Ho0uj",
                           "name": "createText",
                           "fill": "#000000",
-                          "content": "CREAR SESIÓN",
+                          "content": "CREAR CLASE",
                           "fontFamily": "JetBrains Mono",
                           "fontSize": 14,
                           "fontWeight": "800"
@@ -4300,7 +4378,7 @@
                           "id": "jzAAG",
                           "name": "deleteText",
                           "fill": "#FF5C33",
-                          "content": "ELIMINAR SESIÓN",
+                          "content": "ELIMINAR CLASE",
                           "fontFamily": "JetBrains Mono",
                           "fontSize": 14,
                           "fontWeight": "700"
@@ -4318,8 +4396,8 @@
     {
       "type": "frame",
       "id": "yrY1E",
-      "x": 5320,
-      "y": 0,
+      "x": 0,
+      "y": 2070,
       "name": "Admin - Clases Semana",
       "clip": true,
       "width": 1024,
