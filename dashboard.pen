@@ -4081,7 +4081,7 @@
                               "id": "CCpqn",
                               "name": "repCtrlText",
                               "fill": "$--foreground",
-                              "content": "Cada semana",
+                              "content": "Repetir",
                               "fontFamily": "Geist",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -4319,6 +4319,108 @@
                           "name": "notasPlaceholder",
                           "fill": "$--muted-foreground",
                           "content": "Añade notas visibles solo para el equipo de administración...",
+                          "fontFamily": "Geist",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Gghp2",
+                  "name": "descRow",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "4W7a4",
+                      "name": "descLabel",
+                      "fill": "$--muted-foreground",
+                      "content": "DESCRIPCIÓN / EJERCICIOS",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 11,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "EZvBP",
+                      "name": "descBox",
+                      "width": "fill_container",
+                      "height": 112,
+                      "fill": "$--secondary",
+                      "cornerRadius": 8,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$--border"
+                      },
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": [
+                        12,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "a4TJa",
+                          "name": "ex1",
+                          "fill": "$--foreground",
+                          "content": "1.  Sentadillas — 4 × 15 reps",
+                          "fontFamily": "Geist",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "cJkua",
+                          "name": "ex2",
+                          "fill": "$--foreground",
+                          "content": "2.  Press banca — 3 × 12 reps",
+                          "fontFamily": "Geist",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "D2SyJ",
+                          "name": "ex3",
+                          "fill": "$--muted-foreground",
+                          "content": "3.  Añade más ejercicios...",
+                          "fontFamily": "Geist",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "WGCG0",
+                      "name": "addExBtn",
+                      "height": 32,
+                      "gap": 6,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "yqzjW",
+                          "name": "addExPlus",
+                          "fill": "$--primary",
+                          "content": "+",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "mOwl6",
+                          "name": "addExText",
+                          "fill": "$--primary",
+                          "content": "Añadir ejercicio",
                           "fontFamily": "Geist",
                           "fontSize": 13,
                           "fontWeight": "normal"
