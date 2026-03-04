@@ -403,7 +403,7 @@
                           "id": "NYSEt",
                           "name": "kpi2label",
                           "fill": "$--foreground",
-                          "content": "USUARIOS",
+                          "content": "ALUMNOS",
                           "fontFamily": "JetBrains Mono",
                           "fontSize": 12,
                           "fontWeight": "700"
