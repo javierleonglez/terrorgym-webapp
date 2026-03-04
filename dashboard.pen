@@ -393,7 +393,7 @@
                           "id": "lrwce",
                           "name": "kpi2num",
                           "fill": "#B6FFCE",
-                          "content": "ALUMNOS",
+                          "content": "148",
                           "fontFamily": "JetBrains Mono",
                           "fontSize": 32,
                           "fontWeight": "800"
@@ -403,7 +403,7 @@
                           "id": "NYSEt",
                           "name": "kpi2label",
                           "fill": "$--foreground",
-                          "content": "ALUMNOS",
+                          "content": "ALUMNOS ACTIVOS",
                           "fontFamily": "JetBrains Mono",
                           "fontSize": 12,
                           "fontWeight": "700"
